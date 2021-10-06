@@ -1,0 +1,23 @@
+{
+  "name": "testing-github-actions",
+  "version": "1.0.0",
+  "description": "This projects is for testig github actions",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jricci1/testing-github-actions.git"
+  },
+  "author": "Joaquín Ricci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jricci1/testing-github-actions/issues"
+  },
+  "homepage": "https://github.com/Jricci1/testing-github-actions#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.31.1"
+  }
+}
