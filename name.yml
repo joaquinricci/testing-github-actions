@@ -1,0 +1,15 @@
+name: 'NYC sumary report on PR check'
+description: 'This action should add the NYC summary report relevant percentage to the pull requests check'
+author: 'Joaquín Ricci'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor API token'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
